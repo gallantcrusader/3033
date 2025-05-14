@@ -57,7 +57,7 @@ int main(int argc, char **argv) {
 ### 4. Compile the Vulnerable Program 
 
 ```
-gcc -o vulnerable.c -m32 vulnerable
+gcc vulnerable.c -m32 -o vulnerable
 ```
 
 ### 5. Disable ASLR 
